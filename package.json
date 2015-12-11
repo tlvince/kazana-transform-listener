@@ -36,6 +36,7 @@
     "semantic-release": "^4.3.5"
   },
   "dependencies": {
+    "boom": "^3.0.0",
     "lodash": "^3.10.1",
     "pouchdb": "^5.1.0"
   }
