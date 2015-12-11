@@ -1,17 +1,17 @@
 {
   "name": "kazana-transform-listener",
-  "version": "1.0.0",
   "description": "Listen for transformation updates",
   "main": "index.js",
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "start": "kazana --bare",
     "pretest": "standard",
-    "test": "nyc tap --no-cov tests/**/*-test.js"
+    "test": "nyc tap --no-cov tests/**/*-test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eHealthAfrica/kazana-transform-listener.git"
+    "url": "https://github.com/eHealthAfrica/kazana-transform-listener.git"
   },
   "keywords": [
     "kazana"
@@ -32,7 +32,8 @@
     "nyc": "^4.0.1",
     "pouchdb-hoodie-api": "^1.6.0",
     "standard": "^5.4.1",
-    "tap": "^2.3.1"
+    "tap": "^2.3.1",
+    "semantic-release": "^4.3.5"
   },
   "dependencies": {
     "lodash": "^3.10.1",
