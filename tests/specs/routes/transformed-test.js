@@ -77,7 +77,9 @@ test('GET /api/updates/{id}/transformed', function (t) {
       t.is(response.result.transformedAt, '2015-10-07T11:42:28.242Z', 'transformedAt present')
       t.deepEqual(response.result, {
         id: 'bookkeeping_2015-3',
-        transformedAt: '2015-10-07T11:42:28.242Z'
+        transformedAt: '2015-10-07T11:42:28.242Z',
+        transformationErrors: null,
+        transformationSummary: 'transformation summary'
       }, 'has correct update info')
       t.end()
     })
@@ -98,14 +100,15 @@ test('GET /api/updates/{id}/transformed', function (t) {
         t.is(response.statusCode, 200, 'returns 200')
         t.deepEqual(response.result, {
           id: 'bookkeeping_2015-2',
-          transformedAt: now
+          transformedAt: now,
+          transformationErrors: 'transformation errors'
         }, 'has correct update info')
         t.end()
       })
 
       server.rawData.update('bookkeeping_2015-2', { foo: 'bar' })
         .then(function () {
-          return server.rawData.update('bookkeeping_2015-2', { transformedAt: now })
+          return server.rawData.update('bookkeeping_2015-2', { transformedAt: now, transformationErrors: 'transformation errors' })
         })
     })
   })
