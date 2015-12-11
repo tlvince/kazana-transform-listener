@@ -3,7 +3,7 @@ Listen for transformation updates.
 
 [![NPM version](https://badge.fury.io/js/kazana-transform-listener.svg)](https://www.npmjs.com/package/kazana-transform-listener)
 [![Build Status](https://travis-ci.org/eHealthAfrica/kazana-transform-listener.svg?branch=master)](https://travis-ci.org/eHealthAfrica/kazana-transform-listener)
-[![Coverage Status](https://coveralls.io/repos/eHealthAfrica/kazana-transform-listener/badge.svg?branch=master)](https://coveralls.io/r/eHealthAfrica/kazana-transform-listener?branch=master)
+[![Coverage Status](https://coveralls.io/repos/eHealthAfrica/kazana-transform-listener/badge.svg?branch=master&service=github)](https://coveralls.io/github/eHealthAfrica/kazana-transform-listener?branch=master)
 [![Dependency Status](https://david-dm.org/eHealthAfrica/kazana-transform-listener.svg)](https://david-dm.org/eHealthAfrica/kazana-transform-listener)
 
 ## Usage
