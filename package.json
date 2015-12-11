@@ -1,0 +1,41 @@
+{
+  "name": "kazana-transform-listener",
+  "version": "1.0.0",
+  "description": "Listen for transformation updates",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "start": "kazana --bare",
+    "pretest": "standard",
+    "test": "nyc tap --no-cov tests/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eHealthAfrica/kazana-transform-listener.git"
+  },
+  "keywords": [
+    "kazana"
+  ],
+  "author": "Johannes J. Schmidt <jo@die-tf.de> (http://die-tf.de/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eHealthAfrica/kazana-raw-data/issues"
+  },
+  "homepage": "https://github.com/eHealthAfrica/kazana-raw-data#readme",
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "hapi": "^11.1.2",
+    "nyc": "^4.0.1",
+    "pouchdb-hoodie-api": "^1.6.0",
+    "standard": "^5.4.1",
+    "tap": "^2.3.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "pouchdb": "^5.1.0"
+  }
+}

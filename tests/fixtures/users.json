@@ -1,0 +1,27 @@
+{
+  "comment-what-is-this-mocking": "get-user.js in kazana-server",
+  "Bearer AdminUser": {
+    "fullname": "Test Admin",
+    "groups": [],
+    "isAdmin": true,
+    "id": "testadmin",
+    "login": "kazana-admin@example.com",
+    "roles": []
+  },
+  "Bearer NormalUser": {
+    "fullname": "Test Data Provider",
+    "groups": [],
+    "isAdmin": false,
+    "id": "testdataprovider",
+    "login": "kazana-data-provider@example.com",
+    "roles": []
+  },
+  "Bearer OtherUser": {
+    "fullname": "Other User",
+    "groups": [],
+    "isAdmin": false,
+    "id": "otheruser",
+    "login": "otheruser@example.com",
+    "roles": []
+  }
+}

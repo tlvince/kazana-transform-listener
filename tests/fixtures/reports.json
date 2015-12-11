@@ -1,0 +1,51 @@
+{
+  "reports": [{
+    "_id": "bookkeeping_2015-2",
+    "sourceId": "bookkeeping",
+    "scope": {
+      "id": "2015-2",
+      "year": "2015",
+      "quarter": "2"
+    },
+    "name": "coffee",
+    "data": "+555.55 coffee",
+    "type": "dataReport",
+    "version": "1.0.0",
+    "createdAt": "2015-10-07T11:47:28.242Z",
+    "updatedAt": "2015-10-07T11:47:28.242Z",
+    "createdBy": {
+      "createdAt": "2015-04-15T00:00:00.000Z",
+      "fullname": "Test Data Provider",
+      "login": "kazana-data-provider@example.com",
+      "id": "testdataprovider",
+      "isAdmin": false,
+      "roles": [],
+      "groups": []
+    }
+  }, {
+    "_id": "bookkeeping_2015-3",
+    "sourceId": "bookkeeping",
+    "scope": {
+      "id": "2015-2",
+      "year": "2015",
+      "quarter": "3"
+    },
+    "name": "coffee",
+    "data": "+222.22 coffee",
+    "type": "dataReport",
+    "version": "1.0.0",
+    "createdAt": "2015-10-07T11:47:28.242Z",
+    "updatedAt": "2015-10-07T11:48:22.242Z",
+    "transformedAt": "2015-10-07T11:42:28.242Z",
+    "createdBy": {
+      "createdAt": "2015-04-15T00:00:00.000Z",
+      "fullname": "Test Data Provider",
+      "login": "kazana-data-provider@example.com",
+      "id": "testdataprovider",
+      "isAdmin": false,
+      "roles": [],
+      "groups": []
+    }
+  }]
+}
+
