@@ -1,6 +1,9 @@
 # kazana-transform-listener
 Listen for transformation updates.
 
+[![Build
+Status](https://travis-ci.org/eHealthAfrica/kazana-transform-listener.svg?branch=master)](https://travis-ci.org/eHealthAfrica/kazana-transform-listener)
+
 ## Usage
 ```js
 module.exports = {
