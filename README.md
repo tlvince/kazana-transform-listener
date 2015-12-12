@@ -11,6 +11,13 @@ Listen for transformation updates.
 module.exports = {
   name: 'myapp',
   version: '1.0.0',
+  config: {
+    app: {
+      'transform-listener': {
+        timeout: 60000
+      } 
+    }
+  },
   plugins: [
     require('kazana-transform-listener')
   ]
