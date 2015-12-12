@@ -101,6 +101,7 @@ test('GET /api/updates/{id}/transformed', function (t) {
         t.deepEqual(response.result, {
           id: 'bookkeeping_2015-2',
           transformedAt: now,
+          transformationSummary: null,
           transformationErrors: 'transformation errors'
         }, 'has correct update info')
         t.end()
